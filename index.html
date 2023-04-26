@@ -9,23 +9,19 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <sass--watch scss="/main.scss css/style.css" <style>
-        u {
-        text-decoration: none;
-        border-bottom: 3px solid #43aea0;
 
-        }
-        </style>
+
+
 
 </head>
 
 <body>
 
-    <button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>
-    <header>
+    
+    <header class="container">
 
-        <div class="card-body container fluid">
-            <nav class="nav-menu float-right d-none d-lg-block">
+        <div class="card-body container ">
+            <nav class="nav-menu float-right d-none d-lg-block container">
                 <ul>
                     <li><a href="./paginas/contacto.html " title=" contacto" class=>CONTACTO </a>
 
@@ -42,7 +38,49 @@
                 </ul>
             </nav>
         </div>
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">FARMACIA FRANCA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a hr="nav-link active" aria-current="page" href="#">Inicio</a><li><a href="./paginas/contacto.html " title=" contacto" class=>CONTACTO </a>
+                    </li><li><a href="./paginas/turnos.html" title="turnos" class=></a></li><li><a href="./paginas/turnos.html" title="turnos" class=>TURNOS</a></li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contactos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        
+                      </a><li> <a href="./paginas/bolsos-carteras.html" title="bolsoos-carteras" class=>Bolsos y Carteras
 
+                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Turnos</a>
+                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                        <a hr="nav-link active" aria-current="page" href="#"></a><a href="./paginas/consejos-belleza.html" title="consejos-belleza" class=>Consejos de Belleza
+                       
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
 
         <div class="container">
 
@@ -62,8 +100,8 @@
                 </figure>
 
     </header>
-
-
+    
+    
     <section class="bg-color: width container"> NOVEDADES
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">

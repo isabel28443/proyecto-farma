@@ -1,12 +1,14 @@
+.caja{
+  background-image: linear-gradient(aqua, white );
+}
 
   .h1-titulo{
     
-    color: black;
+    color:white;
     display: flex;
     gap: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  
   
   
   body {
@@ -40,7 +42,7 @@
   }
   
   av {
-    color: black;
+    color: rgb(241, 237, 237);
     display: flex;
     gap: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -204,13 +206,14 @@
     list-style: none;
     display: inline-block;
     justify-content: center;
+    margin: 50pt;
   }
   
   .nav-menu a {
     display: inline-block;
     position: relative;
     right: 100px;
-    color: #d2ece9;
+    color: #e3eeed;
     padding: 10px 15px;
     transition: 0.3s;
     font-size: 14px;
@@ -220,12 +223,12 @@
   
   
   
-    .bg-orange {
-      color: #43aea0;
+    .bg-color {
+      color: #d9ecea;
     }
   
     .bg-aqua {
-      background-color: #43aea0;
+      background-color: #b7d4d0;
       justify-content: center;
     }
   
