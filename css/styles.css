@@ -239,5 +239,10 @@ figcaption {
 
 /*# sourceMappingURL=styles.css.map */
 p{
-  background-color: #e3eeed;
+  background-color: #94ddd7;
+  
+}
+.carousel-item{ background-color: #e3eeed;}
+.p-color{ background-color: aqua;}
+.bg-blue {background-image: -moz-linear-gradient(blue;)
 }
