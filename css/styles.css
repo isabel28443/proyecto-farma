@@ -11,7 +11,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
-  background-color: #43aea0;
+  background-color: #98dbd2;
 }
 
 .div-clas-a {
@@ -244,5 +244,4 @@ p{
 }
 .carousel-item{ background-color: #e3eeed;}
 .p-color{ background-color: aqua;}
-.bg-blue {background-image: -moz-linear-gradient(blue;)
-}
+.bg.black{ color: #081110;}
