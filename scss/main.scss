@@ -1,4 +1,286 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 
+body{
+  font-family:"open sans" 
+  ;text-decoration:none;
+
+}
+.contenedor{
+  padding: 60px o;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+
+
+}
+.titulo{
+  color: aqua;
+  font-size: 30px;
+  text-align:center;
+  margin-bottom: 60px;
+  text-decoration: none;
+}
+
+
+/*heder*/
+header{
+  width: 100%;
+  height: 400px;
+  background: #4AC29A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #bdfff38c, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #bdfff370, #4ac29a4d),url(../img/fondoacua.jpg ); /* W3C, IE 10+/ E/dge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+nav{
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+nav > a{
+  color: rgb(65, 134, 136);
+  font-weight: 300px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.col{
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(13, 99, 94);
+}
+  
+.titulo{
+  justify-content: center;
+  color: #102c23;
+  display: flex;
+  text-decoration: none;
+
+}
+.texto-img{
+   display: flex;
+   height: 100%;
+   width: 100%
+   align-items: le;
+   justify-content: left;
+   flex-direction: column-reverse;
+   
+   text-align: left;
+}
+
+  
+
+
+.wave{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+/*About us */
+
+.contenedor-sobre-nosotros{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  
+}
+.contenido-textos {
+  color: rgb(23, 126, 126);
+  padding: 0px opx 30px 15px;
+  font-family: 'Anton', sans-serif;
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  
+ 
+
+
+}
+
+
+p{
+  padding: 0px 0px 30px 15px;
+  font-weight: 400;
+  text-align: justify;
+  color: #4AC29A;}
+  
+  /*galeria*/
+  .portafolio{
+    background-color: #f2f2f2;
+  }
+  .galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+  }
+  .imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+   
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+
+
+  }
+  .imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+ .hover-galeria{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  
+  background: hsla(273,91%,27%,0.7);
+  transition: transform .5s ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ .hover-galeria img{
+  width: 50px;
+ }
+ .hover-galeria p{
+  color: beige;
+
+ }
+ .imagen-port:hover .hover-galeria{
+  transform: scale(1);
+ }
+  .novedades{
+   display: flex;
+   height: 430px;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   color: black;
+   font-family: 'Anton', sans-serif;
+   text-align: center;
+   background-color: rgb(171, 236, 215);
+   font-size:medium;
+   width: 100%;
+   height: 100%;
+ }
+
+ 
+ .input-group{
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 0%;}
+  /*footer*/
+  footer{
+    background-color: #25ad82;
+
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    height: 50%;
+
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .text-center{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    width: 90%;
+    max-width: 400%;
+    margin: auto;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+  } 
+  .form-group{
+    width: :100%;
+    grid-auto-columns: 100%
+    
+  }
+  .text{
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+
+  }
+  .content-foo{
+    
+    color: aliceblue;
+    width: auto;
+    padding-bottom: 1px;
+    
+    
+  }
+  .titulo-final{
+    justify-content: center;
+    text-align: center;
+   font-size: 20px;
+   text-decoration: none;
+  }%
+  @media screen and(max-width: 900px){
+    header{
+      background-position: center;
+
+    }
+    .contenedor-sobre-nosotros{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .imagen-about-us{
+      width: 90%;
+      
+      }
+    }
+    .imagen-port{
+      width: 44%;
+    }
+   
+  }
+  @media screen and (max-width:500px){
+    nav{
+      text-align: center;
+      padding: 30px 0 0 0;
+    }
+    nav > a{
+      margin-right: 5px;
+    }
+    .titulo{
+      font-size: 35px;
+    }
+    .fotos{flex:100%}
+
+
+    }
+  
+
+  
+    
+  
+    
 
 
 
