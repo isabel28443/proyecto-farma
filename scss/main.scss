@@ -217,7 +217,7 @@ p{
     padding: 3.5em 1.5em;
   } 
   .form-group{
-    width: :100%;
+    width: 100%;
     grid-auto-columns: 100%
     
   }
@@ -258,8 +258,10 @@ p{
     .imagen-port{
       width: 44%;
     }
+    
+    }
    
-  }
+  
   @media screen and (max-width:500px){
     nav{
       text-align: center;
@@ -280,7 +282,7 @@ p{
   
     
   
-    
+
 
 
 
