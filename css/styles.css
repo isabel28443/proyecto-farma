@@ -305,8 +305,10 @@ p{
     .titulo{
       font-size: 35px;
     }
-    .fotos{flex:100%}
-    .col{ font-size: 15px;}
+    .col{background-position: center;
+
+
+    }
   }
 
     
