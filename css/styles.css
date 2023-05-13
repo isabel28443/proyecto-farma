@@ -57,8 +57,9 @@ nav > a{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: rgb(13, 99, 94);}
-    
+    color: rgb(13, 99, 94);
+    margin-left: inherit;
+  }
   
 .img{
   width: 24%;
@@ -277,11 +278,11 @@ p{
       width: 90%;
       
       }
-    }
+    
     .imagen-port{
       width: 44%;
     }
-    
+  }  
     
     
   
@@ -299,7 +300,6 @@ p{
     .fotos{flex:100%}
     .col{ font-size: 15px;}
   }
-
 
     
   
