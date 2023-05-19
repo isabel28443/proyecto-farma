@@ -147,6 +147,7 @@ p{
   text-align: justify;
   color: #4AC29A;
   text-decoration: none;
+  font-size: 20px;
 }
   
   /*galeria*/
@@ -240,7 +241,7 @@ p{
     justify-content: center;
 
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
   }
   .text-center{
@@ -269,10 +270,11 @@ p{
     
     color: aliceblue;
     width: auto;
-    padding-bottom: 1px;
-    
+    padding-bottom: 1px
     
   }
+  
+  h3{ font-size: 15px;}
   .titulo-final{
     justify-content: center;
     text-align: center;
